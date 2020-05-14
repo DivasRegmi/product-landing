@@ -112,6 +112,7 @@ nav>ul {
     display:flex;
     flex-direction: column;
     margin-top: 15px;
+    align-items: center;
   }
 
 #logo {
@@ -121,26 +122,24 @@ nav>ul {
     max-height: 80px;
 }
 
-.hero>input[type="email"] {
-    /*width:12rem;
+.hero input[type="email"] {
+  width:12rem;
   height:1.25rem;
   border: 1px solid blue;
   border-radius: 0.5rem;
-  margin-bottom: 1rem;
-  padding: 0.35rem 0.25rem;*/
-    max-width: 275px;
-    width: 100%;
-    padding: 5px;
+  padding:5px;
+  
     
 }
 
 .hero input[type="submit"] {
-    max-width: 150px;
-    width: 100%;
+    width: 200px;
     height: 30px;
     margin: 15px 0;
     border: 0;
+    text-align: center;
     background-color: #f1c40f;
+    border-radius: 2rem;
   }
   
   .hero input[type="submit"]:hover {
